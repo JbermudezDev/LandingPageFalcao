@@ -476,10 +476,11 @@ h2 {
 h3 {
     padding: 10px;
     border: 2px solid #000; /* Borde continuo */
-    background: linear-gradient(to right, #50fcdf, #fad0c4); /* Fondo en gradiente */
+    background: linear-gradient(to right, #50fcdf, #ffffff); /* Fondo en gradiente */
     border-radius: 5px;
     margin-top: 20px;
     font-size: 24px;
+    text-align: center;
 }
 
 /* Estilos de las listas */
@@ -516,3 +517,142 @@ p{
     color: #ffffff;
     font-size: 20px;
 }
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    border-radius: 30px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.238);
+    max-width: 1700px;
+    width: 120%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    gap: 50px; /* Espaciado entre imagen y texto */
+}
+    
+.div8 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(55, 204, 254, 0.449);
+    max-width: 1200px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    gap: 50px; /* Espaciado entre imagen y texto */
+}
+
+.div9 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(55, 204, 254, 0.449);
+    max-width: 1200px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    gap: 50px; /* Espaciado entre imagen y texto */
+}
+
+.div10 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 4;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(55, 204, 254, 0.449);
+    max-width: 1200px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    gap: 50px; /* Espaciado entre imagen y texto */
+}
+
+.div11 {
+    grid-row: span 5 / span 5;
+    grid-column-start: 5;
+    grid-row-start: 1;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(55, 204, 254, 0.449);
+    max-width: 1200px;
+    width: 90%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    gap: 50px; /* Espaciado entre imagen y texto */
+}
+
+.div12 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 4;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(55, 204, 254, 0.449);
+    max-width: 1000px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    gap: 50px; /* Espaciado entre imagen y texto */
+}
+
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    max-width: 1200px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    gap: 50px; /* Espaciado entre imagen y texto */
+}
+    
+.div1 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    max-width: 1200px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    gap: 50px; /* Espaciado entre imagen y texto */
+}
+
+.div2 {
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 4;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    max-width: 1200px;
+    width: 100%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    gap: 50px; /* Espaciado entre imagen y texto */
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    max-width: 1200px;
+    width: 90%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    gap: 50px; /* Espaciado entre imagen y texto */
+}
+.video{
+    
+    text-align: center;
+}        
