@@ -274,53 +274,46 @@ h2 {
     align-items: center;
     flex-grow: 1;
     padding: 40px;
-    background-color: #000; /* Color de fondo oscuro para mejor contraste */
-    margin-top: 80px; /* Se redujo para que esté más arriba */
-    flex-grow: 1; 
+    background-color: #000;
+    margin-top: 80px;
 }
 
 /* Card */
 .card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: none;
-    border-radius: 15px;
-    padding: 20px;
     background-color: rgba(255, 255, 255, 0.1);
     max-width: 1200px;
     width: 100%;
+    padding: 20px;
+    border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    gap: 50px; /* Espaciado entre imagen y texto */
-    
 }
 
-/* Estilos de la imagen */
+/* Imagen flotante */
 .card img {
-    width: 500px; /* Imagen más grande */
-    height: 500px;
+    width: 200px; /* Ajustamos el tamaño para que flote bien */
+    height: auto;
     object-fit: cover;
-    border-radius: 50%; /* Imagen circular */
-    border: 5px solid rgba(255, 255, 255, 0.719);
+    float: left; /* Hace que la imagen flote dentro del texto */
+    margin-right: 15px; /* Espacio entre la imagen y el texto */
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.719);
 }
 
 /* Contenedor del texto */
 .card div {
-    flex-grow: 1;
     color: #fff;
-    max-width: 950px;
+    text-align: justify;
 }
 
 /* Título */
 .card h2 {
     font-size: 2.4em;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     color: #fff;
 }
 
 /* Estilos del texto */
 .card p {
-    text-align: justify;
     font-size: 1.2em;
     line-height: 2.0;
 }
